@@ -1,0 +1,14 @@
+#hos
+t=int(input())
+for _ in range(t):
+    n=int(input())
+    a=input()
+    s=""
+    for i in a:
+        if i=="U":
+            s+="D"
+        elif i=="D":
+            s+="U"
+        else:
+            s+=i
+    print(s)
